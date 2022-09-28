@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.navbar li{
+    padding: 0 20px;
+}
+a , a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.common-btn {
+    padding: 10px 30px;
+    background-color: rgb(65,193,191);
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+.common-btn div{
+    text-align: center;
+}
+.text-blue{
+    color: rgb(65,193,191);
+}
+.text-white{
+    color: white;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.home-banner{
+    background: linear-gradient(#000000, #434343);
+width: 100%;
+height: 400px;
+margin: 0%;
+position: relative;
+}
+.mobile-menu{
+    display: none;
+}
+.banner-content {
+    font-size: larger;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 200px;
+    text-align: center;
+}
+.aboutus-content div{
+    text-align: center;
+    padding: 15px 0;
+}
+.my-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: #202020;
+}
+.services-banner{
+    top: 30px;
+    background: linear-gradient(#000000, #434343);
+}
+.services div{
+    text-align: center;
+    padding: 20px 15px;
+}
+img{
+    padding: 20px 10px;
+    width: 100%;
+    height: 180px;
+}
+.large-btn{
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65,193,191);
+}
+.large-btn:hover{
+    background-color: rgb(43, 122, 120);
+}
+footer{
+    background-color: #202020;
+    margin: 0;
+}
+.footer-content div{
+    padding: 10px 20px;
+}
+.container .footers{
+    padding: 10px 0px;
+}
+.mylist li{
+padding: 15px 0;
+}
+

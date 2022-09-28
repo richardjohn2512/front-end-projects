@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colour-orange{
+    color: rgb(237,86,59);
+}
+.colour-black{
+    color: rgb(48, 38, 38);
+}
+ul , ol {
+    list-style: none
+}
+a , a:hover{
+text-decoration: none;
+}
+.my-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
